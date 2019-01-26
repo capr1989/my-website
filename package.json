@@ -1,0 +1,24 @@
+{
+  "name": "my-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://capr1989.github.io/my-website",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
