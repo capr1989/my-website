@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "gh-pages -d .next"
+    "deploy": "gh-pages -d out"
   },
   "keywords": [],
   "author": "",
