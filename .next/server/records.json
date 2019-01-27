@@ -15,7 +15,9 @@
       "external \"next/document\"": 11,
       "external \"next/link\"": 9,
       "multi ./pages/_document.js": 10,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/_document.js": 12
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/_document.js": 12,
+      "multi ./pages/page1.js": 13,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/page1.js": 14
     },
     "usedIds": {
       "0": 0,
@@ -30,7 +32,9 @@
       "9": 9,
       "10": 10,
       "11": 11,
-      "12": 12
+      "12": 12,
+      "13": 13,
+      "14": 14
     }
   },
   "chunks": {
@@ -50,14 +54,20 @@
       "static/jppwtSljCCT7Rn5lOUkOm/pages/_document.js": 4,
       "static/jppwtSljCCT7Rn5lOUkOm/pages/index.js": 5,
       "static/jppwtSljCCT7Rn5lOUkOm/pages/_app.js": 6,
-      "static/jppwtSljCCT7Rn5lOUkOm/pages/_error.js": 7
+      "static/jppwtSljCCT7Rn5lOUkOm/pages/_error.js": 7,
+      "static/2gJhsXNe_FqTOdeoy0Ktu/pages/_document.js": 0,
+      "static/2gJhsXNe_FqTOdeoy0Ktu/pages/index.js": 1,
+      "static/2gJhsXNe_FqTOdeoy0Ktu/pages/page1.js": 2,
+      "static/2gJhsXNe_FqTOdeoy0Ktu/pages/_app.js": 3,
+      "static/2gJhsXNe_FqTOdeoy0Ktu/pages/_error.js": 8
     },
     "bySource": {},
     "usedIds": [
-      4,
-      5,
-      6,
-      7
+      0,
+      1,
+      2,
+      3,
+      8
     ]
   }
 }

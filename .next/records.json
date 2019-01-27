@@ -231,7 +231,9 @@
       "node_modules/next/link.js": 227,
       "node_modules/next/dist/lib/link.js": 228,
       "node_modules/@babel/runtime-corejs2/core-js/json/stringify.js": 229,
-      "node_modules/core-js/library/fn/json/stringify.js": 230
+      "node_modules/core-js/library/fn/json/stringify.js": 230,
+      "multi ./pages/page1.js": 231,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/page1.js": 232
     },
     "usedIds": {
       "0": 0,
@@ -464,7 +466,9 @@
       "227": 227,
       "228": 228,
       "229": 229,
-      "230": 230
+      "230": 230,
+      "231": 231,
+      "232": 232
     }
   },
   "chunks": {
@@ -483,16 +487,21 @@
       "static/bo485CbcPBmWA5eWOUJms/pages/_error.js": 5,
       "static/jppwtSljCCT7Rn5lOUkOm/pages/index.js": 6,
       "static/jppwtSljCCT7Rn5lOUkOm/pages/_app.js": 7,
-      "static/jppwtSljCCT7Rn5lOUkOm/pages/_error.js": 8
+      "static/jppwtSljCCT7Rn5lOUkOm/pages/_error.js": 8,
+      "static/2gJhsXNe_FqTOdeoy0Ktu/pages/index.js": 3,
+      "static/2gJhsXNe_FqTOdeoy0Ktu/pages/page1.js": 4,
+      "static/2gJhsXNe_FqTOdeoy0Ktu/pages/_app.js": 5,
+      "static/2gJhsXNe_FqTOdeoy0Ktu/pages/_error.js": 9
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
       2,
-      6,
-      7,
-      8
+      3,
+      4,
+      5,
+      9
     ]
   }
 }
