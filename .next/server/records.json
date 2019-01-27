@@ -41,11 +41,11 @@
   },
   "chunks": {
     "byName": {
-      "static/UzGB7T7Ll4JEhv7_0B~ai/pages/_document.js": 0,
-      "static/UzGB7T7Ll4JEhv7_0B~ai/pages/index.js": 1,
-      "static/UzGB7T7Ll4JEhv7_0B~ai/pages/page1.js": 2,
-      "static/UzGB7T7Ll4JEhv7_0B~ai/pages/_app.js": 3,
-      "static/UzGB7T7Ll4JEhv7_0B~ai/pages/_error.js": 4
+      "static/gBv2DCLaiMBrFzcsnKcXr/pages/_document.js": 0,
+      "static/gBv2DCLaiMBrFzcsnKcXr/pages/index.js": 1,
+      "static/gBv2DCLaiMBrFzcsnKcXr/pages/page1.js": 2,
+      "static/gBv2DCLaiMBrFzcsnKcXr/pages/_app.js": 3,
+      "static/gBv2DCLaiMBrFzcsnKcXr/pages/_error.js": 4
     },
     "bySource": {},
     "usedIds": [
