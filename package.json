@@ -15,11 +15,14 @@
   "license": "ISC",
   "homepage": "https://capr1989.github.io/my-website",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "next": "^7.0.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "css-loader": "^2.1.0",
+    "gh-pages": "^2.0.1",
+    "style-loader": "^0.23.1"
   }
 }

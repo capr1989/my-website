@@ -18,7 +18,13 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>With Emotion</title>
+          {/* <title>With Emotion</title> */}
+          {/* <link
+            rel="stylesheet"
+            href={`${
+              this.props.__NEXT_DATA__.assetPrefix
+            }/_next/static/style.css`}
+          /> */}
         </Head>
         <body>
           <Main />

@@ -2,22 +2,22 @@
   "modules": {
     "byIdentifier": {
       "external \"react\"": 0,
-      "multi ./pages/index.js": 1,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js": 2,
-      "multi node_modules/next/dist/pages/_app.js": 3,
-      "node_modules/next/dist/pages/_app.js": 4,
-      "external \"next/app\"": 5,
-      "multi node_modules/next/dist/pages/_error.js": 6,
-      "node_modules/next/dist/pages/_error.js": 7,
-      "external \"next/error\"": 8,
-      "multi node_modules/next/dist/pages/_document.js": 9,
-      "node_modules/next/dist/pages/_document.js": 10,
-      "external \"next/document\"": 11,
-      "external \"next/link\"": 9,
-      "multi ./pages/_document.js": 10,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/_document.js": 12,
-      "multi ./pages/page1.js": 13,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/page1.js": 14
+      "external \"next/link\"": 1,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!components/MainLayout.js be003eff13165c7d0c5f01d9249c9fcf": 2,
+      "external \"next/document\"": 3,
+      "node_modules/ignore-loader/index.js!styles/main.css": 4,
+      "multi ./pages/_document.js": 5,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/_document.js": 6,
+      "multi ./pages/index.js": 7,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js": 8,
+      "multi ./pages/page1.js": 9,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/page1.js": 10,
+      "multi node_modules/next/dist/pages/_app.js": 11,
+      "node_modules/next/dist/pages/_app.js": 12,
+      "external \"next/app\"": 13,
+      "multi node_modules/next/dist/pages/_error.js": 14,
+      "node_modules/next/dist/pages/_error.js": 15,
+      "external \"next/error\"": 16
     },
     "usedIds": {
       "0": 0,
@@ -34,45 +34,26 @@
       "11": 11,
       "12": 12,
       "13": 13,
-      "14": 14
+      "14": 14,
+      "15": 15,
+      "16": 16
     }
   },
   "chunks": {
     "byName": {
-      "static/xLgli4RKKb_WHtuzQVJU4/pages/index.js": 0,
-      "static/xLgli4RKKb_WHtuzQVJU4/pages/_app.js": 1,
-      "static/xLgli4RKKb_WHtuzQVJU4/pages/_error.js": 2,
-      "static/xLgli4RKKb_WHtuzQVJU4/pages/_document.js": 3,
-      "static/4kAiLbzNo7457eh3ESQdp/pages/index.js": 4,
-      "static/4kAiLbzNo7457eh3ESQdp/pages/_app.js": 5,
-      "static/4kAiLbzNo7457eh3ESQdp/pages/_error.js": 6,
-      "static/4kAiLbzNo7457eh3ESQdp/pages/_document.js": 7,
-      "static/bo485CbcPBmWA5eWOUJms/pages/index.js": 0,
-      "static/bo485CbcPBmWA5eWOUJms/pages/_app.js": 1,
-      "static/bo485CbcPBmWA5eWOUJms/pages/_error.js": 2,
-      "static/bo485CbcPBmWA5eWOUJms/pages/_document.js": 3,
-      "static/jppwtSljCCT7Rn5lOUkOm/pages/_document.js": 4,
-      "static/jppwtSljCCT7Rn5lOUkOm/pages/index.js": 5,
-      "static/jppwtSljCCT7Rn5lOUkOm/pages/_app.js": 6,
-      "static/jppwtSljCCT7Rn5lOUkOm/pages/_error.js": 7,
-      "static/2gJhsXNe_FqTOdeoy0Ktu/pages/_document.js": 0,
-      "static/2gJhsXNe_FqTOdeoy0Ktu/pages/index.js": 1,
-      "static/2gJhsXNe_FqTOdeoy0Ktu/pages/page1.js": 2,
-      "static/2gJhsXNe_FqTOdeoy0Ktu/pages/_app.js": 3,
-      "static/2gJhsXNe_FqTOdeoy0Ktu/pages/_error.js": 8,
-      "static/LfH1jby8oUhdPJiMUaunI/pages/_document.js": 4,
-      "static/LfH1jby8oUhdPJiMUaunI/pages/index.js": 5,
-      "static/LfH1jby8oUhdPJiMUaunI/pages/page1.js": 6,
-      "static/LfH1jby8oUhdPJiMUaunI/pages/_app.js": 7,
-      "static/LfH1jby8oUhdPJiMUaunI/pages/_error.js": 9
+      "static/UzGB7T7Ll4JEhv7_0B~ai/pages/_document.js": 0,
+      "static/UzGB7T7Ll4JEhv7_0B~ai/pages/index.js": 1,
+      "static/UzGB7T7Ll4JEhv7_0B~ai/pages/page1.js": 2,
+      "static/UzGB7T7Ll4JEhv7_0B~ai/pages/_app.js": 3,
+      "static/UzGB7T7Ll4JEhv7_0B~ai/pages/_error.js": 4
     },
     "bySource": {},
     "usedIds": [
-      4,
-      5,
-      6,
-      7,
-      9
+      0,
+      1,
+      2,
+      3,
+      4
     ]
   }
 }
