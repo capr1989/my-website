@@ -4,7 +4,7 @@ const isProd = (process.env.NODE_ENV || "production") === "production";
 
 const assetPrefix = isProd ? "/my-website" : "";
 
-module.exports = withCSS({
+const config = withCSS({
   // exportPathMap: () => ({
   //   "/": { page: "/" },
   //   "/page1": { page: "/page1" }
@@ -27,5 +27,6 @@ module.exports = withCSS({
     return config;
   }
 });
+module.exports = config;
 
 // module.exports = withCSS();
