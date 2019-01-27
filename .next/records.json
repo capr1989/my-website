@@ -227,7 +227,11 @@
       "node_modules/@babel/runtime-corejs2/core-js/is-iterable.js": 223,
       "node_modules/core-js/library/fn/is-iterable.js": 224,
       "node_modules/core-js/library/modules/core.is-iterable.js": 225,
-      "node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js": 226
+      "node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js": 226,
+      "node_modules/next/link.js": 227,
+      "node_modules/next/dist/lib/link.js": 228,
+      "node_modules/@babel/runtime-corejs2/core-js/json/stringify.js": 229,
+      "node_modules/core-js/library/fn/json/stringify.js": 230
     },
     "usedIds": {
       "0": 0,
@@ -456,7 +460,11 @@
       "223": 223,
       "224": 224,
       "225": 225,
-      "226": 226
+      "226": 226,
+      "227": 227,
+      "228": 228,
+      "229": 229,
+      "230": 230
     }
   },
   "chunks": {
@@ -472,16 +480,19 @@
       "static/4kAiLbzNo7457eh3ESQdp/pages/_error.js": 8,
       "static/bo485CbcPBmWA5eWOUJms/pages/index.js": 3,
       "static/bo485CbcPBmWA5eWOUJms/pages/_app.js": 4,
-      "static/bo485CbcPBmWA5eWOUJms/pages/_error.js": 5
+      "static/bo485CbcPBmWA5eWOUJms/pages/_error.js": 5,
+      "static/jppwtSljCCT7Rn5lOUkOm/pages/index.js": 6,
+      "static/jppwtSljCCT7Rn5lOUkOm/pages/_app.js": 7,
+      "static/jppwtSljCCT7Rn5lOUkOm/pages/_error.js": 8
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
       2,
-      3,
-      4,
-      5
+      6,
+      7,
+      8
     ]
   }
 }
