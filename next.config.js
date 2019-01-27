@@ -1,6 +1,22 @@
-module.exports = {
-  // some configuration
-  "process.env.BACKEND_URL": prod ? "https://capr1989.github.io/my-website" : ""
+const webpack = require("webpack");
 
-  // another configuration
+const isProd = (process.env.NODE_ENV || "production") === "production";
+
+const assetPrefix = isProd ? "/my-website" : "";
+
+module.exports = {
+  exportPathMap: () => ({
+    "/": { page: "/" },
+    "/page1": { page: "/page1" }
+  }),
+  assetPrefix: assetPrefix,
+  webpack: config => {
+    config.plugins.push(
+      new webpack.DefinePlugin({
+        "process.env.ASSET_PREFIX": JSON.stringify(assetPrefix)
+      })
+    );
+
+    return config;
+  }
 };
