@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/page1.js"],{
 
 /***/ "./components/Header.js":
 /*!******************************!*\
@@ -9909,9 +9909,9 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
+/***/ "./pages/page1.js":
 /*!************************!*\
-  !*** ./pages/index.js ***!
+  !*** ./pages/page1.js ***!
   \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -9921,7 +9921,7 @@ __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_MainLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MainLayout */ "./components/MainLayout.js");
-var _jsxFileName = "/Users/carlospretto/Desktop/webs-mac/my-web/pages/index.js";
+var _jsxFileName = "/Users/carlospretto/Desktop/webs-mac/my-web/pages/page1.js";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
@@ -9931,7 +9931,7 @@ var _jsxFileName = "/Users/carlospretto/Desktop/webs-mac/my-web/pages/index.js";
       lineNumber: 2
     },
     __self: this
-  }, "My home 2");
+  }, "page1");
 });
     (function (Component, route) {
       if(!Component) return
@@ -9949,21 +9949,21 @@ var _jsxFileName = "/Users/carlospretto/Desktop/webs-mac/my-web/pages/index.js";
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/page1")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!******************************!*\
-  !*** multi ./pages/index.js ***!
+  !*** multi ./pages/page1.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__NEXT_REGISTER_PAGE('/', function() {
-module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
+__NEXT_REGISTER_PAGE('/page1', function() {
+module.exports = __webpack_require__(/*! ./pages/page1.js */"./pages/page1.js");
 
 return { page: module.exports.default }});
 
@@ -9980,5 +9980,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]));;
-//# sourceMappingURL=index.js.map
+},[[5,"static/runtime/webpack.js","styles"]]]));;
+//# sourceMappingURL=page1.js.map
