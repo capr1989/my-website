@@ -22,7 +22,7 @@ module.exports = withCSS({
     });
     options.assetPrefix = assetPrefix;
     if (options.defaultLoaders.css[2] !== undefined) {
-      options.defaultLoaders.css[2].options = { sourceMap: true };
+      options.defaultLoaders.css[2].options = {};
     }
     return config;
   }
