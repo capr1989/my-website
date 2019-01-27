@@ -9931,7 +9931,7 @@ var _jsxFileName = "/Users/carlospretto/Desktop/webs-mac/my-web/pages/index.js";
       lineNumber: 2
     },
     __self: this
-  }, "My home");
+  }, "My home modified");
 });
     (function (Component, route) {
       if(!Component) return
