@@ -9955,7 +9955,7 @@ var _jsxFileName = "/Users/carlospretto/Desktop/webs-mac/my-web/pages/page1.js";
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/page1.js ***!
   \******************************/
@@ -9980,5 +9980,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js","styles"]]]));;
+},[[3,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=page1.js.map
