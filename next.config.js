@@ -1,8 +1,8 @@
 const webpack = require("webpack");
 const withCSS = require("@zeit/next-css");
-const isProd = (process.env.NODE_ENV || "production") === "production";
+const prod = process.env.NODE_ENV === "production";
 
-const assetPrefix = isProd ? "/my-website" : "";
+const assetPrefix = prod ? "/my-website" : "http://localhost:3000";
 
 const config = withCSS({
   exportPathMap: () => ({
@@ -13,7 +13,7 @@ const config = withCSS({
   webpack: (config, options) => {
     config.plugins.push(
       new webpack.DefinePlugin({
-        "process.env.ASSET_PREFIX": JSON.stringify(assetPrefix)
+        "process.env.BACKEND_URL": JSON.stringify(assetPrefix)
       })
     );
     // options.exportPathMap = () => ({
